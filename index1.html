@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobil Əməliyyat Sistemləri: Android və iOS</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f6;
+            color: #2c3e50;
+            overflow-x: hidden;
+        }
+        .slide {
+            min-height: 100vh;
+            padding: 60px 90px;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            border-bottom: 2px solid #e0e0e0;
+            position: relative;
+        }
+        .slide:nth-child(even) {
+            background-color: #ffffff;
+        }
+        .slide:nth-child(odd) {
+            background-color: #f8fbfa;
+        }
+        h1 {
+            font-size: 3.8rem;
+            color: #1a252f;
+            margin-bottom: 25px;
+            text-align: center;
+            line-height: 1.2;
+        }
+        h2 {
+            font-size: 2.8rem;
+            color: #2980b9;
+            margin-bottom: 35px;
+            border-bottom: 4px solid #3498db;
+            display: inline-block;
+            padding-bottom: 10px;
+        }
+        p, li {
+            font-size: 1.9rem;
+            line-height: 1.7;
+            margin-bottom: 22px;
+        }
+        ul {
+            margin-left: 45px;
+        }
+        .speaker-badge {
+            position: absolute;
+            top: 35px;
+            right: 50px;
+            background: #e74c3c;
+            color: white;
+            padding: 12px 24px;
+            border-radius: 25px;
+            font-size: 1.4rem;
+            font-weight: bold;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+        .speaker-badge.rufet {
+            background: #27ae60;
+        }
+        .cover-details {
+            text-align: center;
+            font-size: 2.2rem;
+            margin-top: 50px;
+            color: #4a5568;
+        }
+        .cover-details span {
+            display: block;
+            margin-top: 18px;
+            font-weight: bold;
+            color: #2b6cb0;
+        }
+        .fact-box {
+            background-color: #ebf8ff;
+            border-left: 8px solid #3182ce;
+            padding: 25px;
+            margin-top: 30px;
+            border-radius: 8px;
+            font-size: 1.7rem;
+            line-height: 1.6;
+        }
+        .timeline-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-top: 15px;
+        }
+        .timeline-card {
+            background: #edf2f7;
+            padding: 20px;
+            border-radius: 10px;
+            font-size: 1.6rem;
+        }
+        .timeline-card b {
+            color: #2b6cb0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Slayd 1: Giriş -->
+    <div class="slide">
+        <h1>Mobil Əməliyyat Sistemləri:<br>Android və iOS</h1>
+        <div class="cover-details">
+            <span>Fənn: Mobil Texnologiyalar</span>
+            <span>Məruzəçilər: Cəlal Mehdiyev və Rüfət Abbasov</span>
+        </div>
+    </div>
+
+    <!-- Slayd 2: Mobil Əməliyyat Sistemi Nədir? -->
+    <div class="slide">
+        <h2>Mobil Əməliyyat Sistemi Nədir?</h2>
+        <ul>
+            <li><b>Körpü Rolu:</b> Mobil ƏS – cihazın fiziki komponentləri (prosessor, operativ yaddaş, kamera, sensorlar) ilə istifadəçi tətbiqləri arasında əlaqə yaradan proqram təminatıdır.</li>
+            <li><b>Resurs İdarəetməsi:</b> Enerji sərfiyyatını, batareya ömrünü və mobil şəbəkə bağlantılarını (4G/5G, Wi-Fi, Bluetooth) real vaxt rejimində tənzimləyir.</li>
+            <li><b>İstifadəçi Interfeysi (UI):</b> Toxunuş ekranı (Multi-touch) jestlərini, daxilolma siqnallarını emal edərək vizual olaraq ekrana ötürür.</li>
+        </ul>
+    </div>
+
+    <!-- Slayd 3: İnkişaf Xronologiyası -->
+    <div class="slide">
+        <h2>Mobil ƏS-lərin İnkişaf Xronologiyası</h2>
+        <div class="timeline-grid">
+            <div class="timeline-card"><b>1996 - Palm OS:</b> İlk cib kompüterləri (PDA) üçün təşkilatçı proqram.</div>
+            <div class="timeline-card"><b>2000 - Symbian OS:</b> Nokia-nın liderliyi ilə düyməli smartfon dövrünün əsası.</div>
+            <div class="timeline-card"><b>2002 - BlackBerry OS & Windows Mobile:</b> Korporativ e-poçt və biznes funksiyaları.</div>
+            <div class="timeline-card"><b>2007 - iOS (iPhone OS):</b> Multi-touch sensor ekran inqilabı.</div>
+            <div class="timeline-card"><b>2008 - Android OS:</b> Açıq kodlu, çoxlu brend dəstəkli ekosistem.</div>
+            <div class="timeline-card"><b>2010 - Windows Phone:</b> Microsoft-un plitə interfeysli mobil cəhdi.</div>
+        </div>
+    </div>
+
+    <!-- Slayd 4: Android-in Yaranması -->
+    <div class="slide">
+        <h2>Android-in Təəccüblü Başlanğıcı</h2>
+        <ul>
+            <li>Android 2003-cü ildə Andy Rubin tərəfindən <b>rəqəmsal kameralar üçün</b> hazırlanmışdı.</li>
+            <li>Kamera bazarının kiçilməsini görən komanda istiqaməti smartfonlara çevirdi.</li>
+            <li>2005-ci ildə Google bu layihəni cəmi <b>$50 milyon</b> dollar almaqla texnologiya tarixinin ən gəlirli alışını etdi.</li>
+        </ul>
+        <div class="fact-box">
+            <b>Tarixi Fakt:</b> İlk investisiya təqdimatında investorlar "Kameralar üçün əməliyyat sisteminə ehtiyac yoxdur" deyərək Andy Rubin-ə pul verməkdən imtina etmişdilər.
+        </div>
+    </div>
+
+    <!-- Slayd 5: iOS və Project Purple -->
+    <div class="slide">
+        <h2>iOS və Məxfi "Project Purple"</h2>
+        <ul>
+            <li>Apple daxilində iPhone proqram təminatı <b>"Project Purple"</b> kodu altında ciddi məxfiliklə hazırlandı.</li>
+            <li>Steve Jobs Mac kompyuterlərinin güclü <b>OS X</b> sistemini kiçildərək telefona uyğunlaşdırmağı tapşırmışdı.</li>
+            <li>2007-ci ildə çıxan ilk versiyada hətta App Store, Kopyala-Yapışdır və Arxa Fon şəkli belə yox idi.</li>
+        </ul>
+        <div class="fact-box">
+            <b>Tarixi Fakt:</b> Steve Jobs 2007-ci il təqdimatında iPhone-u 3 ayrı cihaz kimi təqdim etmişdi: "Sensorlu iPod, İnqilabi Telefon və İnternet Kommunikatoru". Hər üçü tək bir cihaz idi.
+        </div>
+    </div>
+
+    <!-- Slayd 6: İlk Telefonlar -->
+    <div class="slide">
+        <h2>Android və iOS Əməliyyat Sistemli İlk Telefonlar</h2>
+        <ul>
+            <li><b>İlk iOS Cihazı – iPhone (2G) [2007]:</b> 3.5 düymlük tam sensor ekran, fiziki klaviaturanın olmaması və estetik dizaynla smartfon bazarını kökündən dəyişdi.</li>
+            <li><b>İlk Android Cihazı – HTC Dream (T-Mobile G1) [2008]:</b> Sürüşən fiziki QWERTY klaviaturası, trekbol düyməsi və açılan pəncərə paneli (Notification Shade) ilə təqdim olundu.</li>
+        </ul>
+    </div>
+
+    <!-- Slayd 7: Nüvə Arxitekturası -->
+    <div class="slide">
+        <h2>Nüvə (Kernel) Arxitekturası</h2>
+        <ul>
+            <li><b>Android (Linux Kernel):</b> Monolitik Linux nüvəsinə əsaslanır. Müxtəlif istehsalçıların donanımlarına (Samsung, Xiaomi və s.) asanlıqla adaptasiya olunur.</li>
+            <li><b>iOS (Darwin / XNU):</b> Unix əsaslı XNU hibrid nüvəsindən istifadə edir. Yalnız Apple-ın öz prosessorları (A-series, M-series) üçün optimallaşdırılıb.</li>
+        </ul>
+    </div>
+
+    <!-- Slayd 8: Proqramlaşdırma Dilləri -->
+    <div class="slide">
+        <h2>Proqramlaşdırma Dilləri və Ekosistem</h2>
+        <ul>
+            <li><b>Android (Kotlin və Java):</b> İlkin dövrlərdə Java üstünlük təşkil etsə də, hazırda Google-un rəsmi seçimi daha təhlükəsiz və qısa kodlu <b>Kotlin</b> dilidir.</li>
+            <li><b>iOS (Swift və Objective-C):</b> Qəliz Objective-C dilindən sonra Apple 2014-cü ildə yüksək sürətli və oxunaqlı <b>Swift</b> dilini təqdim etdi.</li>
+        </ul>
+    </div>
+
+    <!-- Slayd 9: Yaddaş İdarəetməsi -->
+    <div class="slide">
+        <h2>Yaddaş İdarəetməsi: RAM Fərqi</h2>
+        <ul>
+            <li><b>Android (Garbage Collection):</b> Arxa fonda işləyən garbage collector(zibil toplayıcı) istifadə olunmayan yaddaşı axtarıb təmizləyir. Bu proses əlavə RAM resursu tələb edir.</li>
+            <li><b>iOS (ARC - Automatic Reference Counting):</b> Yaddaşın təmizlənməsi kodun komilyasiyası zamanı təyin edilir. Obyektlə iş bitən kimi yaddaş anında azad olunur.</li>
+        </ul>
+        <div class="fact-box">
+            Məhz ARC texnologiyası sayəsində 8 GB RAM-a malik iPhone, 16 GB RAM-ı olan Android flaqmanı ilə eyni sürətdə və axıcı işləyə bilir.
+        </div>
+    </div>
+
+    <!-- Slayd 10: Təhlükəsizlik Arxitekturası -->
+    <div class="slide">
+        <h2>Təhlükəsizlik və Sandboxing</h2>
+        <ul>
+            <li><b>App Sandboxing:</b> Hər iki sistemdə tətbiqlər izolyasiya olunmuş "sandbox(qum qutusu)" daxilində işləyir və bir-birinin sistem fayllarına müdaxilə edə bilmir.</li>
+            <li><b>İcazələr və Yükləmə:</b> iOS yalnız App Store nəzarətinə güvəndiyi halda, Android APK fayllarını kənardan yükləməyə (Sideloading) icazə verir. Bu azadlıq olsa da, təhlükəsizlik riski yaradır.</li>
+        </ul>
+    </div>
+
+    <!-- Slayd 11: Süni İntellekt Trendləri -->
+    <div class="slide">
+        <h2>Süni İntellekt İnqilabı</h2>
+        <ul>
+            <li><b>Android (Google Gemini Nano):</b> Birbaşa cihazın özündə (On-device) işləyən neyron modelləri ilə internet olmadan canlı tərcümə və mətn emalı təklif edir.</li>
+            <li><b>iOS (Apple Intelligence):</b> Siri neyron şəbəkələri ilə yenilənir. Şəxsi məlumatların məxfiliyini qorumaq üçün emal cihaz daxilində və şifrələnmiş buludda aparılır.</li>
+        </ul>
+    </div>
+
+    <!-- Slayd 12: Yekun -->
+    <div class="slide">
+        <h2>Yekun Müqayisə və Nəticə</h2>
+        <ul>
+            <li><b>Android:</b> Geniş fərdiləşdirmə, açıq kod azadlığı və hər büdcəyə uyğun cihaz seçimi. (Qlobal bazar payı: ~70%)</li>
+            <li><b>iOS:</b> Yüksək stabil performans, uzun illər yenilənmə dəstəyi və qüsursuz ekosistem sinxronizasiyası. (Qlobal bazar payı: ~29%)</li>
+        </ul>
+        <h3 style="text-align:center; color:#2c3e50; margin-top:50px; font-size: 2.5rem;">Diqqətiniz üçün təşəkkür edirik!</h3>
+    </div>
+
+</body>
+</html>
